@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile App</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+
+<body>
+  <div class="header__wrapper">
+    <header></header>
+    <div class="cols__container">
+      <div class="left__col">
+        <div class="img__container">
+          <img src="https://storage.googleapis.com/profile-app-100524/images/my-picture.jpg"
+            alt="Muhammad Burhanudin" />
+        </div>
+        <h2>Muhammad Burhanudin</h2>
+        <p>Cloud Engineer</p>
+        <p>burhandinm81@gmail.com</p>
+
+        <div class="about">
+          <h3>Personal Information</h3>
+          <ul>
+            <li>City: <b>Bojonegoro</b></li>
+            <li>Age: <b>21</b></li>
+            <li>Phone: <b>+62-1234-5678-xxx</b></li>
+          </ul>
+        </div>
+
+        <div class="content">
+          <p>
+            Hello! My name is Burhan. I'm a college student that passionate about cloud computing, backend development,
+            and network engineering. In my spare time, i like to playing football, swimming, and watching anime.
+          </p>
+
+          <ul>
+            <li><i class="fab fa-twitter"></i></li>
+            <i class="fab fa-pinterest"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-dribbble"></i>
+          </ul>
+        </div>
+      </div>
+      <div class="right__col">
+        <nav>
+          <ul>
+            <li><a href="">galleries</a></li>
+          </ul>
+        </nav>
+
+        <div class="photos">
+          <img src="https://storage.googleapis.com/profile-app-100524/images/image-1.jpg" alt="Photo" />
+          <img src="https://storage.googleapis.com/profile-app-100524/images/image-2.jpg" alt="Photo" />
+          <img src="https://storage.googleapis.com/profile-app-100524/images/image-3.jpg" alt="Photo" />
+          <img src="https://storage.googleapis.com/profile-app-100524/images/image-4.jpg" alt="Photo" />
+          <img src="https://storage.googleapis.com/profile-app-100524/images/image-5.jpg" alt="Photo" />
+          <img src="https://storage.googleapis.com/profile-app-100524/images/image-6.jpg" alt="Photo" />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
